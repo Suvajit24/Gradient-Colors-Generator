@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Gradient Color Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="gradient-container">
+
+<div class="color-display" id="gradient"></div>
+<div class="color-codes"></div>
+
+<select name="gradientDirection">
+    <option value="to right">to right</option>
+    <option value="to right bottom">to right bottom</option>
+    <option value="to right top">to right top</option>
+    <option value="to left">to left</option>
+    <option value="to left bottom">to left bottom</option>
+    <option value="to left top">to left top</option>
+    <option value="to bottom">to bottom</option>
+    <option value="to top">to top</option>
+  </select>
+
+  <input type="color" class="color-picker" name="color1" value="#FFAAAA">
+  <input type="color" class="color-picker" name="color2" value="#734C8F">
+  
+
+  <button id="addColor">Add Color</button>
+
+  <h3></h3>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
